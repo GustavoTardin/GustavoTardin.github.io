@@ -3,14 +3,20 @@
 body{
 background-color: darkred;
     color: white;
+    padding: 8%;
 }
 
 h1 {
     font-family:'Vast Shadow', cursive,sans-serif;
     color: black;
+    text-align: center;
 }
 #Descrição{
     font-family:'RocknRoll One', sans-serif;
+    position: absolute;
+    top: 36%;
+    right: 20px;
+    font-size: 17px;
 }
 #Nascimento {
 font-family:Cedarville,sans-serif ;
@@ -42,4 +48,20 @@ p{
 }
 #Insta{
     background-color:#f09433;
+}
+
+
+#Gustavo{
+    float: left;
+    padding: 10px;
+    background-color: gray;
+    position: absolute;
+
+}
+.dificil{
+    height: 300px;
+    position: relative;
+}
+.perdi ul li:nth-child(odd){
+    background-color: black;
 }
